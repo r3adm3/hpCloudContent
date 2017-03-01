@@ -314,7 +314,7 @@ bb5e5f3d-b1f6-4bb2-8881-892ea5bc40c6.920af872-f430-483d-b966-6401ee0523e7.descri
           <listDelimiter>,</listDelimiter>
           <record>false</record>
         </staticBinding>
-        <staticBinding id="d4a1c74f-5d41-48f0-8b49-3e56e1e49fd7">
+        <identityBinding id="fbbf13d9-9248-4e09-9c87-2bff79ee3db8">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
@@ -325,7 +325,12 @@ bb5e5f3d-b1f6-4bb2-8881-892ea5bc40c6.920af872-f430-483d-b966-6401ee0523e7.descri
           <inputSymbol>keystorePassword</inputSymbol>
           <listDelimiter>,</listDelimiter>
           <record>false</record>
-        </staticBinding>
+          <link>
+            <refId>7aa8a809-2597-4a8e-9db1-d59801704213</refId>
+            <refName>ooInboundUser</refName>
+          </link>
+          <identityAttribute>PASSWORD</identityAttribute>
+        </identityBinding>
         <staticBinding id="3f8f9905-6b3a-4c91-b897-ec4ac88238ff">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
@@ -338,7 +343,7 @@ bb5e5f3d-b1f6-4bb2-8881-892ea5bc40c6.920af872-f430-483d-b966-6401ee0523e7.descri
           <listDelimiter>,</listDelimiter>
           <record>false</record>
         </staticBinding>
-        <staticBinding id="28a35b17-100d-40e5-876a-eb545eb739fa">
+        <identityBinding id="63454201-be25-4696-9690-82b8783cd1c7">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
@@ -349,7 +354,12 @@ bb5e5f3d-b1f6-4bb2-8881-892ea5bc40c6.920af872-f430-483d-b966-6401ee0523e7.descri
           <inputSymbol>trustPassword</inputSymbol>
           <listDelimiter>,</listDelimiter>
           <record>false</record>
-        </staticBinding>
+          <link>
+            <refId>7aa8a809-2597-4a8e-9db1-d59801704213</refId>
+            <refName>ooInboundUser</refName>
+          </link>
+          <identityAttribute>PASSWORD</identityAttribute>
+        </identityBinding>
       </bindings>
       <transitions>
         <transition id="0bfc91cf-3afa-43a0-9848-460a5ebeab64">
@@ -664,7 +674,7 @@ bb5e5f3d-b1f6-4bb2-8881-892ea5bc40c6.920af872-f430-483d-b966-6401ee0523e7.descri
           <listDelimiter>,</listDelimiter>
           <record>false</record>
         </staticBinding>
-        <staticBinding id="c7d66fd9-5c52-4a5c-8392-b93cc6c9aa8f">
+        <identityBinding id="92a6dc00-189a-4dda-a212-917fa89308d5">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
@@ -675,7 +685,12 @@ bb5e5f3d-b1f6-4bb2-8881-892ea5bc40c6.920af872-f430-483d-b966-6401ee0523e7.descri
           <inputSymbol>keystorePassword</inputSymbol>
           <listDelimiter>,</listDelimiter>
           <record>false</record>
-        </staticBinding>
+          <link>
+            <refId>7aa8a809-2597-4a8e-9db1-d59801704213</refId>
+            <refName>ooInboundUser</refName>
+          </link>
+          <identityAttribute>PASSWORD</identityAttribute>
+        </identityBinding>
         <staticBinding id="16b65eab-3385-40cc-beb5-130cc2e26550">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
@@ -688,7 +703,7 @@ bb5e5f3d-b1f6-4bb2-8881-892ea5bc40c6.920af872-f430-483d-b966-6401ee0523e7.descri
           <listDelimiter>,</listDelimiter>
           <record>false</record>
         </staticBinding>
-        <staticBinding id="ff7d7c34-8a6a-4b8c-a749-38c3d95ca6b1">
+        <identityBinding id="18d522f9-2ca4-497f-bda2-f1eac91a2976">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>
           <assignToContext>false</assignToContext>
@@ -699,7 +714,12 @@ bb5e5f3d-b1f6-4bb2-8881-892ea5bc40c6.920af872-f430-483d-b966-6401ee0523e7.descri
           <inputSymbol>trustPassword</inputSymbol>
           <listDelimiter>,</listDelimiter>
           <record>false</record>
-        </staticBinding>
+          <link>
+            <refId>7aa8a809-2597-4a8e-9db1-d59801704213</refId>
+            <refName>ooInboundUser</refName>
+          </link>
+          <identityAttribute>PASSWORD</identityAttribute>
+        </identityBinding>
         <staticBinding id="4da88323-d90b-4483-b559-b06df0543756">
           <annotation></annotation>
           <assignFromContext>false</assignFromContext>

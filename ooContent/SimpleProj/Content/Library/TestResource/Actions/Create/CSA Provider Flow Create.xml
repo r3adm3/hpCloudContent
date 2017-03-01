@@ -401,10 +401,10 @@
           <action>OVERWRITE</action>
           <assignmentTargetType>FLOW_VARIABLE</assignmentTargetType>
           <contextKey>csaUserIdentifier</contextKey>
-          <expression id="40938d28-7d98-46bf-873f-ecdfd912ca78">
+          <expression id="619c47cf-3c49-4a74-bd8b-6814f79451b8">
             <annotation></annotation>
-            <name>Result Field: FailureMessage</name>
-            <fieldName>FailureMessage</fieldName>
+            <name>Result Field: csaUserIdentifier</name>
+            <fieldName>csaUserIdentifier</fieldName>
             <sourceType>RAWRESULT</sourceType>
             <filters/>
           </expression>
@@ -967,7 +967,22 @@
       <opRef>
         <refId>7bda02d2-425f-42aa-9ad3-5192b0fe6446</refId>
       </opRef>
-      <assignments/>
+      <assignments>
+        <flowVariableAssignment id="abb5618e-6fc2-45df-8dab-95b9f6ec5fca">
+          <annotation></annotation>
+          <name>assignment</name>
+          <action>OVERWRITE</action>
+          <assignmentTargetType>FLOW_VARIABLE</assignmentTargetType>
+          <contextKey>csaUserIdentifier</contextKey>
+          <expression id="dedde3d2-1796-4d04-b983-ff45c5ecdb3e">
+            <annotation></annotation>
+            <name>Result Field: processReturnCode</name>
+            <fieldName>processReturnCode</fieldName>
+            <sourceType>RAWRESULT</sourceType>
+            <filters/>
+          </expression>
+        </flowVariableAssignment>
+      </assignments>
       <throttleSize>0</throttleSize>
     </step>
     <step id="6562d58a-3d15-4627-a3d9-762ebcdd22b7">
