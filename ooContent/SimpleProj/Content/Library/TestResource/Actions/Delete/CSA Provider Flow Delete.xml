@@ -987,7 +987,7 @@ eb6946e5-035d-43ec-afc8-35cea8e27d9c.d33e1c69-7fce-4e52-8e50-acf4ac229e4f.prompt
     </step>
     <step id="4dcf3a21-122b-4700-8cb3-7926dc6fed42">
       <annotation>eb6946e5-035d-43ec-afc8-35cea8e27d9c.4dcf3a21-122b-4700-8cb3-7926dc6fed42.description</annotation>
-      <name>Report SUCCESS back to CSA</name>
+      <name>Report FAILURE back to CSA</name>
       <bounds>
         <x>322.0</x>
         <y>201.0</y>

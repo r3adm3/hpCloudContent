@@ -987,7 +987,7 @@
     </step>
     <step id="6562d58a-3d15-4627-a3d9-762ebcdd22b7">
       <annotation>9669fb19-8e92-48da-89fa-9e45c964d95a.6562d58a-3d15-4627-a3d9-762ebcdd22b7.description</annotation>
-      <name>Report SUCCESS back to CSA</name>
+      <name>Report FAILURE back to CSA</name>
       <bounds>
         <x>295.0</x>
         <y>193.0</y>
