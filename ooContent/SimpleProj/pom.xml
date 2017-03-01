@@ -5,4 +5,11 @@
   <groupId>DEFAULT</groupId>
   <artifactId>SimpleProj</artifactId>
   <version>1.0.6-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>DEFAULT</groupId>
+      <artifactId>SystemConfig</artifactId>
+      <version>[1.0.0]</version>
+    </dependency>
+  </dependencies>
 </project>
